@@ -43,7 +43,7 @@ class Web3 extends Component {
         },
       });
     } catch(err) {
-      alert('Failed to load web3');
+      alert('Failed to start web3, please checkout devtool console for more details.');
       console.log(err);
     }
   }
