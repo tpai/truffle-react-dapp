@@ -21,10 +21,10 @@ truffle develop
 ```
 
 3. Install [metamask extension](https://metamask.io/), switch to private network first, and configure custom RPC URL `http://127.0.0.1:7545`, then use `seed phrase` to login, you will have first account logged in.
-4. Clone this repo
+4. Download the box with the `truffle unbox` command.
 
 ```
-git clone git@github.com:tpai/truffle-react-dapp.git
+truffle unbox tpai/truffle-react-dapp
 ```
 
 5. Compile and deploy contracts
