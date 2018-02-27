@@ -7,6 +7,7 @@
     "Compile": "truffle compile",
     "Migrate": "truffle migrate",
     "Test contracts": "truffle test",
+    "Install dev server dependencies": "cd client && yarn",
     "Run dev server": "cd client && yarn start"
   },
   "hooks": {
